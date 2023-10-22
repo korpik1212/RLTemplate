@@ -2,4 +2,15 @@
 (WIP)
 Clean and fluid software architecture template for roguelike games
 
-includes ItemsSystem,AttributeSystem and EffectSystem that compliments each other 
+
+includes systems tailored for roguelike games meaning they are able to providing highly adaptable gameplay.Theese system complement eachother really well.
+
+
+**Attribute System** 
+Enables effortless generation of attributes and modifiers for dynamic value adjustments.
+
+**Effect System** 
+Enables  effortless generation of status effects for in-game characters
+
+**Item System** 
+Enables effortless generation of equippable items 

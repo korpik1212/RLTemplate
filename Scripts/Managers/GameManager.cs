@@ -7,7 +7,8 @@ namespace RLTemplate
     {
         public Dictionary<string, Item> AllItemsById = new Dictionary<string, Item>();
         public PlayerCharacterData activePlayer;
-        public Item[] allAvaibleItems;
+        [SerializeField]
+        private Item[] allAvaibleItems;
 
         private void Awake()
         {

@@ -14,7 +14,7 @@ namespace RLTemplate
         [SerializeField]
         private Stat[] characterStats;
 
-        bool initialized = false;
+        
         //its also possible to create CharacterStats individually as shown below 
 
         //public CharacterStat attackDamage;
@@ -22,16 +22,12 @@ namespace RLTemplate
         //public CharacterStat movementSpeed;
 
         public void Initialize()
-        {
-            if (initialized) return;
+        {           
             for(int i = 0; i < characterStats.Length; i++)
             {
                 Stat characterStat = characterStats[i];
                 StatsByID.Add(characterStat.statId, characterStat);
             }
-
-            initialized = true;
-
         }
 
    

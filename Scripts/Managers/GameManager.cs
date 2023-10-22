@@ -14,7 +14,7 @@ namespace RLTemplate
         {
             Initialize();
         }
-        public void Initialize()
+        private void Initialize()
         {
             activePlayer.characterStats.Initialize();
 
